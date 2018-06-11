@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=1920px, initial-scale=0.6, minimum-scale=0.3, maximum-scale=1.0, user-scalable=yes" />     
+        <!-- <meta name="apple-mobile-web-app-capable" content="yes" />  -->  
+        <meta name="format-detection" content="telephone=no" />    
+		
+		<title></title>
+		
+		<link href = "css/main.css" rel = "stylesheet" type = "text/css" />
+	</head>
+	<body>
+		<!--图1-->
+		<div class = "img1">
+			<div id = "img1-bg"><img src = "img/first/bg.jpg" alt= "bg1" /> </div>
+			<div id = "text-01"><img src = "img/first/tanmi.png" alt = "探秘" /></div>
+			<div id = "text-02"><img src = "img/first/youji.png" alt = "有机" onload = "onloadWen();" /></div>
+			<div id = "text-03"><img src = "img/first/naifen.png" alt = "奶粉" /></div>
+			<div id = "cloud"><img src = "img/first/cloud.png" alt = "cloud" /></div>
+			<div><img id = "wenhao" src = "img/first/wenhao.png" alt = ""  /></div>
+			<div><img id = "big" src = "img/first/big.png" alt = ""  /></div>
+			<div id = "penguin">
+				<img src = "img/first/penguin.png" alt = "penguin" />
+			</div>
+			<div id = "mouse">
+				<img src = "img/first/mouse.png" alt = "mouse" />
+			</div>
+			<div id = "logo">
+				<img src = "img/first/logo.png" alt = "logo" />
+			</div>
+		</div>
+
+		
+		<!--图2-->
+		<div class = "img2" id ="img2">
+			<div id = "img2-bg" ><img src = "img/second/bg.jpg" alt= "bg2" onmouseover = "addSlogan();" /> </div>
+			<div id = "bubble1"></div>
+			<div id = "bubble2"></div>
+			<div id = "bubble3"></div>
+			<div id = "ellipse1">
+				<img src = "img/second/ellipse4.png" alt = "ellipse" />
+			</div>
+			<div id = "ellipse2">
+				<img src = "img/second/ellipse5.png" alt = "ellipse" />
+			</div>
+			<div id = "ellipse3">
+				<img src = "img/second/ellipse6.png" alt = "ellipse" />
+			</div>
+			<div id = "ellipse4">
+				<img src = "img/second/ellipse7.png" alt = "ellipse" />
+			</div>
+			<div id = "bubble4"></div>
+			<div id = "ellipse5">
+				<img src = "img/second/ellipse9.png" alt = "ellipse" />
+			</div>
+			<div class = "text">
+				<div id = "text-04">
+				    <p>营养</p>
+			    </div>
+			    <div id = "text-05">
+				    <p>口碑</p>
+			    </div>
+			    <div id = "text-06">
+			    	<p>认证</p>
+			    </div>
+			    <div id = "text-07">
+			    	<p>奶源</p>
+			    </div>
+			    <div id = "text-08">
+			    	<p>成分</p>
+			    </div>
+			</div>
+			<div>
+				<img id = "selection" src = "img/second/text.png" alt = "" />
+			</div>
+			<div class = "star">
+				<img id = "star1" class = "star" src = "img/second/star1.png" alt = "" onload = "getStar();" />
+				<img id = "star2" class = "star" src = "img/second/star2.png" alt = "" onload = "getStar();" />
+				<img id = "star3" class = "star" src = "img/second/star3.png" alt = "" onload = "getStar();" />
+				<img id = "star4" class = "star" src = "img/second/star4.png" alt = "" />
+			</div>
+		</div>
+
+		
+		<!--图3-->
+		<div class = "img3" id = "img3">
+			<div id = "img3-bg">
+				<img src = "img/third/bg.jpg" alt = "bg" />
+			</div>
+			<div id = "first"></div>
+			<div id = "first-text">
+				<p>首先呢</p>
+			</div>
+			<div id = "see">
+				<img src = "img/third/see.png" alt = "text" />
+			</div>
+			<div id = "small-exclamation">
+				<img src = "img/third/small.png" alt = "small exclamation" />
+			</div>
+			<div id = "big-exclamation">
+				<img src = "img/third/big.png" alt = "big exclamation" />
+			</div>
+				<div class = "imgc" id = "DK"><img src = "img/third/DK.png" alt = "DK" /></div>
+				<div class = "imgc" id = "FR"><img src = "img/third/FR.png" alt = "FR" /></div>
+				<div class = "imgc" id = "DE"><img src = "img/third/DE.png" alt = "DE" /></div>
+				<div class = "imgc" id = "AT"><img src = "img/third/AT.png" alt = "AT" /></div>
+
+			<div class = "country-name">
+					<span class ="name" id = "DK-text">&nbsp;丹麦</span>
+					<span class = "name" id = "FR-text">&nbsp;法国</span>
+					<span class = "name" id = "DE-text">&nbsp;德国</span>
+					<span class = "name" id = "AT-text">奥地利</span>
+			</div>
+			<div id = "slogan1">
+				<p>几乎囊括了世界上最优秀的<span class = "red">有机</span>奶牛和牧场</p>
+			</div>
+			<div id = "img3-mouse">
+				<img src = "img/third/mouse.png" alt = "mouse" />
+			</div>
+		</div>
+		
+		<!--图4-->
+		<div class = "img4" id = "img4">
+			<div id = "img4-bg">
+				<img src = "img/fourth/bg.jpg" alt = "bg" />
+			</div>
+			<div id = "second"></div>
+			<div id = "second-text">其次呢</div>
+			<div id = "slogan2">
+				<img src = "img/fourth/slogan2.png" alt = "slogan" />
+			</div>
+			<div id = "img4-exclamation">
+				<img src = "img/third/small.png" alt = "exclamation" />
+			</div>
+			<div class = "logo-identify">
+				<ul>
+					<li class = "imgi"><img src = "img/fourth/logo-DK.png" alt = "logo" /></li>
+					<li class = "imgi"><img src = "img/fourth/logo-E.png" alt = "logo" /></li>
+					<li class = "imgi"><img src = "img/fourth/logo-china.png" alt = "logo" /></li>
+				</ul>
+			</div>
+			<div id = "third"></div>
+			<div id = "third-text"></div>
+			<div id = "img4-mouse">
+				<img src = "img/third/mouse.png" alt = "mouse" />
+			</div>
+		</div>
+		
+		<!--图5-->
+		<div class = "img5" id = "img5">
+			<div id = "img5-bg">
+				<img src = "img/fifth/bg.jpg" alt = "bg" />
+			</div>
+			<div id = "shape1">
+				<img src = "img/fifth/shape1.png" alt = "shape" />
+			</div>
+			<div id = "shape2">
+				<img src = "img/fifth/shape2.png" alt =  "shape" />
+			</div>
+			<div id = "lamb">
+				<img src = "img/fifth/lamb.png" alt = "lamb" />
+			</div>
+			<div class = "slogan">
+				<p id = "slogan3">认口碑！</p>
+				<p id = "slogan4">大家说好才是真的好~</p>
+				<p id = "text-09">10个城市&nbsp;1000位妈妈&nbsp;有机奶粉试用报告</p>
+			</div>
+			<div id = "mom1">
+				<img src = "img/fifth/man.png" alt = "man" />
+			</div>
+			<div id = "dialogue1">
+				<img src = "img/fifth/dialogue1.png" alt = "dialogue" />
+			</div>
+			<div id = "mom2">
+				<img src = "img/fifth/manreverse.png" alt = "man" />
+			</div>
+			<div id = "dialogue2">
+				<img src = "img/fifth/dialogue2.png" alt = "dialogue" />
+			</div>
+			<div id = "mom3">
+				<img src = "img/fifth/man.png" alt = "man" />
+			</div>
+			<div id = "dialogue3">
+				<img src = "img/fifth/dialogue1.png" alt = "dialogue" />
+			</div>
+			<div class = "introduction1">
+				<p id = "introduction1_1">北京<br /><span>西西麻麻吖</span></p>
+				<p id = "introduction1_2">广州<br /><span>family20140623</span></p>
+				<p id = "introduction1_3">深圳<br /><span>蒙蒙么么</span></p>
+			</div>
+			<div id = "introduction2_1"><p>&quot;丹麦有机认证，欧盟有机认证，中绿华夏有机食品认证中心许可；有机产品，更健康。全球可追品质有保障。&quot;
+				&quot;最重要的是儿子喜欢，而且不上火，不腹泻。便便好，奶粉好，身体好，一切ok。&quot;</p></div>
+			<div id = "introduction2_2"><p>&nbsp;&nbsp;&quot;不愧为丹麦皇室御用品牌，喝了几天Arla有机奶粉，宝贝也没有上火表现，不便秘，小便也变得清清的。&quot;
+				&quot;优质的奶源是好奶粉的必要保障，丹麦的严谨和食品安全的严格把关也是非常值得信赖的。&quot;</p></div>
+			<div id = "introduction2_3"><p>&nbsp;&quot;安全：不含农药和化学肥料，不含抗生素以及人造荷尔蒙，非基因改造，100%纯天然。&quot;&quot;营养：有机奶粉不
+					但含有更多的营养物质，而且更易于被婴幼儿吸收。&quot;</p></div>
+			<div id = "num1"><p>1</p></div>
+			<div id = "num2"><p>2</p></div>
+			<div id = "num3"><p>3</p></div>
+			<div id = "click-mom">
+				<a href = "http://so.mama.cn/search?q=Arla&source=mamaquan" target = "_blank"><img src = "img/fifth/link.png" alt="link"></a>
+			</div>
+			<div id = "layer">
+				<img src = "img/fifth/layer.png" alt = "layer" />
+			</div>
+			<div id = "img5-mouse">
+				<img src = "img/third/mouse.png" alt = "mouse" />
+			</div>
+		</div>
+		
+		<!--图6-->
+		<div class = "img6" >
+			<img src = "img/sixth/bg.jpg" alt = "bg" usemap = "#link"/>
+			<map name = "link">
+				<area shape = "poly" href = https://arlamuying.tmall.com/index.htm?spm=a1z0b.7.w5001-16695058330.2.748321aduYZhKm&scene=taobao_shop coords = "957,596,969,588,1191,587,1338,587,1344,648,1333,657,970,659,958,647" />
+			</map>
+		</div>
+		<script src = "js/jquery-3.3.1.min.js"></script>
+		<script src = "js/main.js"></script>
+	</body>
+</html>
